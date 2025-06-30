@@ -1,0 +1,5 @@
+- name: Install Apache
+  hosts: appserver
+  become: true
+  roles:
+    - apache
